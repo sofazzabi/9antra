@@ -1,0 +1,54 @@
+.card {
+width : 300px;
+}
+
+.first-android{
+    border-color: orange;
+   
+    border-style: solid;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 20px;
+
+
+
+
+}
+
+.courses-h1 {
+
+position:relative;
+top: 20px;
+left: 100px;
+font-weight: 600;
+    font-size: 30px;
+    color: #af2f64;
+    text-align: left;
+
+
+}
+.ViewPlusRepeaterSearchBox a{
+
+    font-size: 18px;
+    display: inline-block;
+    background: #af2f64;
+    color: #fff;
+    line-height: 40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    transition: .3s;
+    margin-right: 15px;
+}
+.imgArrow{
+
+    height:70%;
+    width:70%;
+    position: relative;
+    bottom: 60%;
+}
+

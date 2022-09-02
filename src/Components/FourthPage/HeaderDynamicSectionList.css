@@ -1,0 +1,99 @@
+#HeaderDynamicSectionList {
+    background: #af2f64;
+    padding: 3em 15px;
+}
+
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+
+@media (min-width: 992px){
+.pt-lg-0, .py-lg-0 {
+    padding-top: 0!important;
+}
+}
+
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+}
+
+
+@media (min-width: 992px) {
+.order-lg-1 {
+    order: 1;
+}
+}
+@media (min-width: 992px){
+.col-lg-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+}
+}
+@media (min-width: 768px){
+.offset-md-1 {
+    margin-left: 8.3333333333%;
+}
+}
+.order-2 {
+    order: 2;
+}
+.TextBannerTitle {
+    font-weight: 600;
+    font-size: 34px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+p.BannerTextDynamicList {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+@media (min-width: 992px){
+.order-lg-2 {
+    order: 2;
+}
+}
+@media (min-width: 992px){
+.col-lg-5 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+}
+@media (min-width: 768px){
+.offset-md-1 {
+    margin-left: 8.3333333333%;
+}
+}
+.order-1 {
+    order: 1;
+}
+
+
+#HeaderDynamicSectionList img {
+    max-height: 300px;
+    border-style: none;
+    vertical-align: middle;
+}
+.dynamic{
+    max-width: 100%;
+    height: auto;
+}
+ 

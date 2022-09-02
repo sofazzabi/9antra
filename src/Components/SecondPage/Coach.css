@@ -1,0 +1,87 @@
+.courses-h1-coach {
+    color:#af2f64;
+    position:relative;
+    top: 20px;
+    left: 100px;
+    font-size: 30px;
+    padding-top: 30px;
+    
+    }
+    .img-caoch{
+
+        height : 50%;
+        border-radius: 20px;
+        border-color: rgb(248, 187, 6);
+        border-style: solid;
+        border-color: rgb(217, 150, 26);
+        border-width: 10px;
+        border-left: none;
+        border-top: none;
+    }
+
+    .sof li::before{
+
+        content: "•"; color:rgb(248, 187, 6);
+        margin-right: 1em;
+        width: 10px;
+    }
+
+
+
+    .details-buttons-coach{
+       
+       margin-top: 25px;    
+       
+    
+    }
+    
+    
+    .details-buttons-1-coach{
+       
+        width:150px;
+        height: 50px;
+        border-radius: 10px;
+        color: #af2f64;
+        border-color: #af2f64;
+        margin-right: 20px;
+    }
+    
+    .details-buttons-2-coach{
+        width:170px;
+        height: 50px;
+        border-radius: 10px;
+        color: white;
+        border-color: #af2f64;
+        
+        margin-right: 20px;
+        background-color: #af2f64;
+    
+    
+    }
+    
+    
+    .details-buttons-1-coach:hover{
+       
+        width:150px;
+        height: 50px;
+        border-radius: 10px;
+        color: white;
+        border-color: red;
+        margin-right: 20px;
+        background-color:rgb(255, 194, 14);
+    }
+    
+    
+    .details-buttons-2-coach:hover{
+        width:170px;
+        height: 50px;
+        border-radius: 10px;
+        color: white;
+        border-color: rgb(196, 19, 69);
+        
+        margin-right: 20px;
+        background-color: rgb(255, 194, 14);
+    
+    
+    }
+    

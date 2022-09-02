@@ -1,0 +1,68 @@
+.az{
+
+    color: #3e3333;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+
+.azzabi{
+
+    font-weight: 600;
+    font-size: 23px;
+    color: #3e3333;
+    margin-bottom: 15px;
+}
+
+
+.testimonials-photo{
+height:100%;
+width:60px;
+left:0;
+border-radius: 10px;
+
+
+}
+
+.testimonials-item{
+    height:60px;
+    display: flex;
+    align-items: center;
+    
+    
+
+    list-style-type: none;
+   
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.testimonials-item-toggle{
+    height:60px;
+    display: flex;
+    align-items: center;
+    
+    
+
+    list-style-type: none;
+    background-color: white;
+   
+    cursor: pointer;
+    margin-top: 40px;
+}
+.testimonials-text{
+
+    padding-left: 10px;
+    color: #3e3333;
+    font-weight: 600!important;
+    font-size: 21px;
+}
+.containerTestimmonials{
+padding-top: 100px;
+background-color: rgb(249, 247, 247);
+
+
+
+}

@@ -1,0 +1,43 @@
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.rowAgenda {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 768px){
+.colAgenda1,.colAgenda2 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+}
+
+.colAgenda1,.colAgenda2{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.paragraphAgenda{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.paragraphAgenda{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.imgAgenda {
+    max-width: 100%;
+    height: auto;
+}

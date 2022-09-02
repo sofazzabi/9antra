@@ -1,0 +1,205 @@
+.ButtonRegister{
+    display: block;
+    margin-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.primary-button:hover{
+    background: rgb(255, 194, 14);;
+
+}
+
+span{
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #af2f64;
+
+
+
+}
+
+
+
+.header{
+    background: linear-gradient(90deg,#f3ebef,#f4ecef 100%,#f7f5f3 0);
+    height: 550px;
+    display: flex;
+align-items : center;
+justify-content: space-between;
+position:relative;
+
+
+
+
+}
+
+.ButtonRegister a {
+    text-decoration: none;
+}
+
+a.primary-button {
+    color: #fff;
+}
+.primary-button {
+    background: #af2f64;
+    border-radius: 8px;
+    padding: 8px 12px;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+.liste-header{
+
+    list-style-type: none;
+    background: linear-gradient(90deg,#f3ebef,#f4ecef 100%,#f7f5f3 0);
+    max-height:600px;
+    top:50px;
+    
+    display: block;
+    justify-content: space-between;
+    align-items:center;
+    position: absolute;
+
+}
+
+
+.item:nth-child(1){
+
+    width:30%;
+    margin-left: 15%;
+
+
+
+
+
+}
+
+
+.item:nth-child(2){
+
+    width:40%;
+    margin-left: 15%;
+    margin-top: 50px;
+    
+
+
+
+
+
+}
+.item:nth-child(3){
+
+    width:40%;
+    margin-left: 15%;
+    margin-top: 50px;
+    
+
+
+
+
+
+}
+
+.paragraphe1{
+
+font-size: 38px;
+color: purple;
+font-weight: 600;
+color: #495057;
+
+
+}
+
+
+.paragraphe2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+
+
+
+
+.moveArrow {
+    animation-name : mymove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 2s;
+    top:25px;
+height:80%;
+width:33%;
+position:absolute;
+right:15%;
+  }
+  
+  @keyframes mymove {
+    from {transform: translateY(0px);}
+    to {transform: translateY(20px);}
+  }
+
+
+  @media screen and (max-width : 700px) {
+    .header {
+        flex-direction: column;
+        align-items : center;
+        justify-content: space-between;
+
+        }
+        .moveArrow {
+            position: relative;
+            height:200px;
+            width:300px;
+            margin-bottom: 2em;
+            margin-left: 25%;
+
+
+
+        }
+        @keyframes mymove {
+            
+        }
+
+
+        .item:nth-child(1){
+
+            width:70%;
+            margin-left: 25%;
+        
+        
+        
+        
+        
+        }
+        
+        
+        .item:nth-child(2){
+        
+            width:70%;
+            margin-left: 25%;
+            margin-top: 50px;
+            
+        
+        
+        
+        
+        
+        }
+        .liste-header{
+            position:absolute;
+            top:20em;
+
+
+        }
+    
+
+    
+  }

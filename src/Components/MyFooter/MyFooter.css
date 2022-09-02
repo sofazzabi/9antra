@@ -1,0 +1,132 @@
+.footerWords{
+
+
+    color: #3e3333;
+    transition: .3s;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    
+}
+.FooterList{
+    list-style-type: none;
+}
+.footerWords:hover{
+    color: #af2f64;
+
+}
+
+
+
+.footer-top {
+    padding: 60px 0 30px 0;
+    margin: 0px 50px;
+
+}
+
+.sof{
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.footer-contract{
+    margin-bottom: 0px;
+}
+
+.footerimg {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+
+.FooterList{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+   
+
+
+}
+
+.FooterList :nth-child(1){
+
+    margin: 0px 1rem;
+    padding: 0px;
+}
+.FooterList :nth-child(2){
+
+    margin: 0px 1rem;
+    padding: 0px;
+}
+.FooterList :nth-child(3){
+
+    margin: 0px 1rem;
+    padding: 0px;
+}
+.FooterList :nth-child(4){
+
+    margin: 0px 1rem;
+    padding: 0px;
+}
+.facebook,.instagram,.twitter,.youtube,.phone,.envelope{
+
+
+    font-size: 18px;
+    display: inline-block;
+    background: #fab555;
+    color: #fff;
+    line-height: 40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    transition: .3s;
+    margin-right: 15px;
+}
+
+.monImage{
+
+    height:40%;
+    width:40%;
+    position: relative;
+    bottom: 10%;
+
+}
+
+.facebook:hover{
+
+background: #af2f64;
+
+}
+
+.instagram:hover{
+
+    background: #af2f64;
+    
+    }
+
+    
+    .twitter:hover{
+
+        background: #af2f64;
+        
+        }
+        
+
+
+
+
